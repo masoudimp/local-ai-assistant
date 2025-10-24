@@ -3,7 +3,7 @@
 A **local, privacy-first AI chat assistant** built with **ASP.NET MVC**, **Ollama**, and **Gemma**.  
 No cloud APIs. No telemetry. 100% offline.
 
-> **See the full article here →** [link coming soon]
+> **See the full article here →** [Running LLMs Locally for Privacy, Control, and Cost Efficiency](https://www.linkedin.com/pulse/running-llms-locally-privacy-control-cost-efficiency-masoud-imanpour-y3sme/)
 
 ---
 
@@ -91,3 +91,4 @@ No network calls, cloud APIs, or external telemetry.
 ## Author:
 Masoud. Software Engineer, Vancouver 🇨🇦
 Building local-first, private AI tools with ASP.NET MVC.
+
