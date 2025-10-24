@@ -1,0 +1,36 @@
+﻿@{
+    var title = ViewData["Title"] ?? "App";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@title</title>
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <div id="header">
+        <h1>🤖 Local Masoud's AI Assistant</h1>
+    </div>
+
+    <div id="chat-container">
+        @RenderBody()
+    </div>
+
+    <div id="input-container">
+        <div id="input-wrapper">
+            <button id="attach-btn">📎</button>
+            <textarea id="user-input" placeholder="How can I help you?" rows="1"></textarea>
+            <button id="send-btn">➤</button>
+            <input type="file" id="file-input" style="display:none" />
+        </div>
+    </div>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

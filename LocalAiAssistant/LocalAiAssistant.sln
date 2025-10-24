@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalAiAssistant", "LocalAiAssistant.csproj", "{B7603508-BF96-452D-9704-D0D1F67A6D3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalAiAssistantService", "..\LocalAiAssistantService\LocalAiAssistantService.csproj", "{E42B1EB9-3869-4950-84FD-62AD7705E60C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7603508-BF96-452D-9704-D0D1F67A6D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7603508-BF96-452D-9704-D0D1F67A6D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7603508-BF96-452D-9704-D0D1F67A6D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7603508-BF96-452D-9704-D0D1F67A6D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E42B1EB9-3869-4950-84FD-62AD7705E60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42B1EB9-3869-4950-84FD-62AD7705E60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42B1EB9-3869-4950-84FD-62AD7705E60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42B1EB9-3869-4950-84FD-62AD7705E60C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDBFFBBD-7AF0-4C35-98A1-2A0BC32206A7}
+	EndGlobalSection
+EndGlobal
