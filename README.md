@@ -90,5 +90,5 @@ No network calls, cloud APIs, or external telemetry.
 
 ## Author:
 Masoud. Software Engineer, Vancouver 🇨🇦
-Building local-first, private AI tools with ASP.NET MVC.
+
 
